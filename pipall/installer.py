@@ -70,16 +70,27 @@ def pythons():
 
 def list_installed_libraries():
     installed_versions = get_py_paths()
+<<<<<<< HEAD
     print("Select the python version to list libraries under it :")
     count = 0
     for each in installed_versions:
         print(count+1,") ",each[1])
         count += 1
+=======
+    print("Select the python version to list libraries under it")
+    count = 0
+    for each in installed_versions:
+        print(count,") ",each[1])
+>>>>>>> 7a6da01e9eacfb4840e296fbe1fc74e995540649
     print()
     index = input("Enter the index number of Python Version : ")
     
     try:
         each = installed_versions[int(index)-1]
+<<<<<<< HEAD
+=======
+        print(each)
+>>>>>>> 7a6da01e9eacfb4840e296fbe1fc74e995540649
         path = each[0]
         python_version = each[1]
         pip_executable = os.path.join(path, f"Scripts\pip.exe")                
@@ -97,10 +108,17 @@ def list_installed_libraries():
 
 def print_help():
     print("pipall commands:")
+<<<<<<< HEAD
     print("  pipall install <library_name>      :  Install a Library for all Python versions")
     print("  pipall uninstall <library_name>    :  Uninstall a Library for all Python versions")
     print("  pipall pythons                     :  List all versions of Python Installed")
     print("  pipall list                        :  List all Libraries under a Python Version")
+=======
+    print("  pipall install <library_name>      :  Install a Library")
+    print("  pipall uninstall <library_name>    :  Uninstall a Library")
+    print("  pipall pythons                     :  List all versions of Python Installed")
+    print("  pipall listlib                     :  List all Libraries under a ")
+>>>>>>> 7a6da01e9eacfb4840e296fbe1fc74e995540649
     print("  pipall help                        :  List all commands under pipall")
     print("  pipall developer                   :  Developer info")
 

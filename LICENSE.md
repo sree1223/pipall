@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Copyright (c) 2023 The Python Packaging Authority
+=======
+MIT License
+
+Copyright (c) 2023 Sreeharsha
+>>>>>>> 7a6da01e9eacfb4840e296fbe1fc74e995540649
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -16,4 +22,8 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+<<<<<<< HEAD
 SOFTWARE.
+=======
+SOFTWARE.
+>>>>>>> 7a6da01e9eacfb4840e296fbe1fc74e995540649

@@ -3,13 +3,18 @@ from setuptools import setup
 
 setup(
     name='pipall',
+<<<<<<< HEAD
     version='0.0.6',
+=======
+    version='0.1',
+>>>>>>> 7a6da01e9eacfb4840e296fbe1fc74e995540649
     packages=['pipall'],
     entry_points={
         'console_scripts': [
             'pipall=pipall.installer:main',
         ],
     },
+<<<<<<< HEAD
     author="Sree Harsha",
     author_email="sreeharsha120203@gmail.com",
     keywords=["pipall","pythonversions"],
@@ -53,4 +58,6 @@ Example of installing a library:
  - pipall install requests
 
 This will install the requests library for the default Python version.""",
+=======
+>>>>>>> 7a6da01e9eacfb4840e296fbe1fc74e995540649
 )
